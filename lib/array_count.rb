@@ -1,5 +1,5 @@
 def count_strings(array)
-   array.count {|x| x == String}
+   array.count {|x| x == ""}
 end
 #Return the total number of strings in the provided array using the count enumerable
 
